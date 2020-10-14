@@ -20,17 +20,18 @@
     </div>
 
 
-
     <div class="form-groub my-2">
       <label>Site-url :</label>
       <input class="form-control " type="text" id="producturlInput">
     </div>
     <button onclick="objectss()" class="btn btn-info my-3">Add Site</button>
+    <button onclick="upd()" class="btn btn-info my-3">Add Site</button>
+
 
   </div>
 
   <div class="container py-5">
-    <input id="sch" placeholder="search....." class="form-control w-50 mx-auto mb-5" type="text">
+    <input id="sch" onchange="ch(this)" placeholder="search....." class="form-control w-50 mx-auto mb-5" type="text">
     <table id="ttt" class="taple w-75 m-auto py-2 ">
       <thead>
         <th>index</th>
